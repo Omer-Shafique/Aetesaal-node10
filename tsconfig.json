@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "lib": ["es2017"],
+    "module": "commonjs",
+    "declaration": true,
+    "strictNullChecks": false, // Adjusted this option
+    "removeComments": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "moduleResolution": "node",
+    "sourceMap": false,
+    "inlineSources": false,
+    "experimentalDecorators": false,
+    "emitDecoratorMetadata": false,
+    "noImplicitAny": true,
+    "suppressImplicitAnyIndexErrors": false,
+    "typeRoots": ["node_modules/@types"],
+    "outDir": "dist",
+    "rootDirs": ["src"],
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*"],
+  
+}
